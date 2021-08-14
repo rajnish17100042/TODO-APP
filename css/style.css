@@ -1,0 +1,21 @@
+
+body{
+    font-family: 'Roboto-Regular';background: rgb(233, 228, 228);
+}
+
+.container{
+    text-align:center;
+
+}
+.todo-inner {
+    padding: 40px;
+    background: rgb(255, 255, 255);
+}
+
+table {
+background-color: rgb(238, 235, 235);
+}
+table button {
+    border: none;
+    cursor: pointer;
+}
