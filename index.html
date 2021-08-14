@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h1>Todo Application</h1>
+                <div class="todo-inner">
+                    <div class="form-row">
+                        <div class="col-6">
+                            <input type="text" class="form-control" placeholder="Enter your task" id="inputdata" />
+                            <input type="hidden" id="saveindex" />
+                        </div>
+                        <button type="button" class="btn btn-success mr-2" id="addtaskbtn">
+                            Add Task
+                        </button>
+                        <button type="button" class="btn btn-success mr-2" id="savetaskbtn" style="display: none;">
+                            Save Task
+                        </button>
+                        <button type="button" id="deleteallbtn" class="btn btn-danger" onclick="deleteAllTask()">
+                            Delete All
+                        </button>
+                    </div>
+
+                    <table class="table  mt-3 mb-0" id="taskdisplay">
+
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
